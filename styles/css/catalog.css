@@ -1,0 +1,129 @@
+.catalog-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 66px;
+  margin-bottom: 60px;
+}
+.catalog-list--min-gap {
+  gap: 28px;
+}
+.catalog-list__item {
+  margin-bottom: 20px;
+}
+.catalog-list__img {
+  overflow: hidden;
+}
+.catalog-list__img img {
+  transition: 0.2s transform;
+}
+.catalog-list__img img:hover {
+  transform: scale(1.1);
+}
+.catalog-list__link {
+  color: #151C22;
+}
+.catalog-list-title {
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.basic {
+  background: #F1F2F4;
+  margin-bottom: 130px;
+}
+.basic-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.basic-title {
+  font-family: "Work Sans";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  width: 272px;
+}
+.basic-img {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+.basic-img-column {
+  position: relative;
+  padding: 0 30px;
+}
+.basic-img-column::before {
+  content: "";
+  display: block;
+  width: 232px;
+  height: 176px;
+  background-image: url("/img/diogonal.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  background-size: cover;
+}
+.basic-img-column::after {
+  content: "";
+  display: block;
+  width: 178px;
+  height: 135px;
+  background-image: url("/img/smallsize.png");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-size: cover;
+}
+
+.breadcrumbs {
+  display: flex;
+  padding-bottom: 15px;
+}
+.breadcrumbs-link {
+  font-family: "Work Sans";
+  color: #727A82;
+  transition: 0.3s opacity;
+}
+.breadcrumbs-link:hover {
+  opacity: 0.7;
+}
+.breadcrumbs-item {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs-item-item--current {
+  color: #151C22;
+}
+.breadcrumbs-item::after {
+  content: "/";
+  display: block;
+  margin: 0 10px;
+  color: #727A82;
+}
+.breadcrumbs-item:last-child::after {
+  display: none;
+}
+
+.item-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.item-counter-line {
+  width: 200px;
+  height: 2px;
+  background-color: #E5E5E5;
+  margin-top: 10px;
+}
+.item-counter-fill {
+  height: 100%;
+  display: block;
+  background-color: black;
+  width: 10%;
+}

@@ -1,0 +1,22 @@
+.title-link {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px; 
+
+    &__link {
+        color: #151C22; 
+        border-bottom: 2px solid;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 6px;
+        transition: 0.2s border-bottom-color;
+        
+        &:hover {
+          border-bottom-color: transparent;
+
+
+        }
+      }
+      
+  }

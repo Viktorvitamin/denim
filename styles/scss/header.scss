@@ -1,0 +1,71 @@
+.btn-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: red;
+    transition: 0.2s;
+
+    &__link {
+        transition: 0.2s;
+        margin-right: 5%;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+    }
+}
+   
+
+.main-header {
+    padding: 24px 0;
+    background-color: #fff;    
+
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+      }
+
+
+
+      &__btns {
+        width: 400px;
+        background-color: #fff;
+      }
+      
+  }
+  
+  
+  
+  .menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    line-height: 19px;
+
+    &-link {
+        color: #151C22;
+        font-weight: bold;
+        padding-left: 35px;
+        transition: 0.5s all; 
+
+         
+        &:hover {
+            opacity: 0.5;
+                       
+        }
+      }
+
+  }
+  
+ 
