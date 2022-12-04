@@ -4,6 +4,10 @@
   align-items: center;
   margin-bottom: 70px;
 }
+.title-link__title {
+  font-weight: 700;
+  font-size: 32px;
+}
 .title-link__link {
   color: #151C22;
   border-bottom: 2px solid;

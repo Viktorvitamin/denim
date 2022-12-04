@@ -4,6 +4,11 @@
     align-items: center;
     margin-bottom: 70px; 
 
+    &__title {
+      font-weight: 700;
+      font-size: 32px;
+    }
+
     &__link {
         color: #151C22; 
         border-bottom: 2px solid;
