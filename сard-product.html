@@ -37,21 +37,22 @@
     <section class="card">
       <div class="container card-wrapper">
         <div class="card-column">
-          <img src="/img/55 1.jpg" alt="">
+          <img class="bigImg" src="/img/55 1.jpg" alt="" width="400" height="523">
           <ul class="card-column-list">            
             <li class="card-column-item">
-              <img src="/img/56 1.jpg" alt="">
+              <img class="prev" src="/img/56 1.jpg" alt="">
             </li>
             <li class="card-column-item">
-              <img src="/img/57 1.jpg" alt="">
+              <img class="prev" src="/img/57 1.jpg" alt="">
             </li>
             <li class="card-column-item">
-              <img src="/img/58 1.jpg" alt="">
+              <img class="prev" src="/img/58 1.jpg" alt="">
             </li>
             <li class="card-column-item">
-              <img src="/img/59 1.jpg" alt="">
+              <img class="prev" src="/img/59 1.jpg" alt="">
             </li>
           </ul>
+          <button type="button" class="reset">reset</button>
         </div>
           <div class="card-description">
             <h2 class="card-description-header">Overalls</h2>
@@ -59,25 +60,55 @@
                Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.
             </p>
             <form class="card-form" method="post">
-              <fieldset class="card-form-color">
-                <legend>Color</legend>
-                <label>
-                  <input type="radio" id="a" name="a">
+              <fieldset class="card-form-order">
+                <legend class="card-form-color">Color</legend>
+                <label class="card-form-filter">
+                  <input class="card-form-check" type="radio" id="a" name="a">
+                  <span class="card-form-style"></span>                  
                 </label>
-                <label>
-                  <input type="radio" id="a" name="a">
+                <label class="card-form-filter">
+                  <input class="card-form-check__blue" type="radio" id="a" name="a">
+                  <span class="card-form-style__blue"></span>                  
                 </label>
-                <label>
-                  <input type="radio" id="a" name="a">
+                <label class="card-form-filter">
+                  <input class="card-form-check__grey" type="radio" id="a" name="a">
+                  <span class="card-form-style__grey"></span>                  
                 </label>
               </fieldset>
-              <fieldset class="card-form-color">
-                <legend>Size</legend>
+              <fieldset class="card-form-order">
+                <legend class="card-form-size">Size</legend>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>XS</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>S</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>M</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>L</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>XL</span>
+                </label>
               </fieldset>
+              <p class="card-form-price">$160</p>
+              <button class="default-btn">Add to cart</button>
             </form>
           </div>        
       </div>
     </section>
+    <!-- <div>
+      <p class="par1">par1</p>
+      <p id="par2">par2</p>
+      <p class="par1">par3</p>
+    </div> -->
     <section class="recommendations main-section">
       <div class="container">
         <header class="title-link">
@@ -161,5 +192,6 @@
       </li>
     </ul>      
   </footer>
+  <script src="/js/dtl.js"></script>
 </body>
 </html>
