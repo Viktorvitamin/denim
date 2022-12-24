@@ -13,24 +13,3 @@ prevs.forEach(function(element) {
   });
   
 });
-
-
-
-
-let r2d2 = 'коля';
-const blabla = 'игорь';
-
-console.log(r2d2);
-r2d2 = 5;
-console.log(r2d2);
-var paha = '';
-paha = 5;
-var paha = 10;
-let r2d2 = 11;
-
-
-
-
-
-
-

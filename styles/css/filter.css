@@ -1,0 +1,46 @@
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.filter__select {
+  border: 2px solid;
+  background-color: transparent;
+  padding: 18px 21px 18px 18px;
+  font-size: 18px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 243px;
+  cursor: pointer;
+}
+.filter__arrow1::before, .filter__arrow1::after {
+  content: "";
+  width: 16px;
+  height: 2px;
+  background-color: #151C22;
+  position: absolute;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+.filter__arrow1::before {
+  transform: rotate(40deg);
+  right: 30px;
+  top: 30px;
+}
+.filter__arrow1::after {
+  transform: rotate(-40deg);
+  right: 18px;
+  top: 30px;
+}
+
+.filter__active + .filter__arrow1::before {
+  transform: rotate(-40deg);
+}
+
+.filter__active + .filter__arrow1::after {
+  transform: rotate(40deg);
+}

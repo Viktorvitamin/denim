@@ -30,7 +30,6 @@
 
 .basic {
   background: #F1F2F4;
-  margin-bottom: 130px;
 }
 .basic-list {
   display: flex;
@@ -113,7 +112,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 50px;
 }
 .item-counter-line {
   width: 200px;
@@ -126,4 +124,7 @@
   display: block;
   background-color: black;
   width: 10%;
+}
+.item-counter .default-btn {
+  margin: 40px 0 130px;
 }

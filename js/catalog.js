@@ -12,3 +12,25 @@ if (items) {
     itemFill.style.width = percent + "%";
 }
 
+$(document).ready(function() {
+    $('.filter__select').click(function(events) {
+        $(this).toggleClass('filter__active');
+    })
+    $('.filter__select').blur(function(events) {
+        $(this).removeClass('filter__active');
+    })
+})
+// const element = document.querySelector('.r2d2');
+// if(element != null){
+//     console.log('blaaa');
+//     element.classList.add('active');
+// }
+
+// console.log('privet');
+
+// $(document).ready(function() {
+//    const element1 =  $('.r2d2');
+//    element1.addClass('active');
+//    console.log('privet');
+    
+// })

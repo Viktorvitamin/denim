@@ -51,12 +51,18 @@
             <div class="basic-img-column">
               <img class="basic-img" src="./img/61 1.jpg" width="299" height="260" alt="">
             </div>
-          </div>
-               
-             
+          </div>             
         </section>
         <section class="catalog">
           <div class="container">
+            <div class="filter">                                        
+              <select class="filter__select"> 
+                <option selected disabled>Filter by</option>           
+                <option class="filter__item">По цене</option>
+                <option class="filter__item">По популярности</option>
+              </select>              
+                <span class="filter__arrow1"></span>              
+            </div>
             <ul class="catalog-list">
               <li class="catalog-list__item catalogItem">
                 <a href="#" class="catalog-list__link">
@@ -119,8 +125,9 @@
         <div class="item-counter">
           <p class="item-counter-text">Showing <span class="currentItems">9</span> of <span class="allItems">45</span> items</p>
           <div class="item-counter-line">
-            <span class="item-counter-fill itemFill"></span>
+            <span class="item-counter-fill itemFill"></span>            
           </div>
+          <a class="default-btn" href="/">Load more</a>
         </div>
       </main>
       <footer class="main-footer">
@@ -167,6 +174,7 @@
           </li>
         </ul>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
       <script src="./js/catalog.js"></script>
 </body>
 </html>

@@ -13,18 +13,20 @@ body {
 }
 
 .default-btn {
+  min-width: 200px;
   background-color: #151C22;
   font-size: 16px;
   color: #ffff;
   font-weight: bold;
-  padding: 27px 24px;
+  padding: 23px 24px;
   text-align: center;
   display: inline-block;
   transition: 0.3s background-color, 0.3s transform;
+  border: 0;
 }
 
 .default-btn:hover {
-  background-color: rgb(124, 13, 69);
+  background-color: rgb(34, 32, 33);
   transform: scale(1.03);
 }
 

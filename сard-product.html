@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nimes</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">      
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">      
+      <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="menu">
+        <a href="#" class="menu-link">Woman</a>
+        <a href="#" class="menu-link">Men</a>
+        <a href="#" class="menu-link">New</a>
+      </nav>
+      <a href="/" class="logo">
+        <img src="./img/logo.png" alt="logotip">
+      </a>
+      <div class="main-header__btns btn-wrapper">
+        <a href="/" class="btn-wrapper__link">
+          <img src="./img/search-ico.png" alt="search">
+        </a>
+        <a href="/" class="btn-wrapper__link">
+          <img src="./img/basket-ico.png" alt="basket">
+        </a>          
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="card">
+      <div class="container card-wrapper">
+        <div class="card-column">
+          <img class="bigImg" src="/img/55 1.jpg" alt="" width="400" height="523">
+          <ul class="card-column-list">            
+            <li class="card-column-item">
+              <img class="prev" src="/img/56 1.jpg" alt="">
+            </li>
+            <li class="card-column-item">
+              <img class="prev" src="/img/57 1.jpg" alt="">
+            </li>
+            <li class="card-column-item">
+              <img class="prev" src="/img/58 1.jpg" alt="">
+            </li>
+            <li class="card-column-item">
+              <img class="prev" src="/img/59 1.jpg" alt="">
+            </li>
+          </ul>
+          <button type="button" class="reset">reset</button>
+        </div>
+          <div class="card-description">
+            <h2 class="card-description-header">Overalls</h2>
+            <p class="card-description-text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist.
+               Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.
+            </p>
+            <form class="card-form" method="post">
+              <fieldset class="card-form-order">
+                <legend class="card-form-color">Color</legend>
+                <label class="card-form-filter">
+                  <input class="card-form-check" type="radio" id="a" name="a">
+                  <span class="card-form-style"></span>                  
+                </label>
+                <label class="card-form-filter">
+                  <input class="card-form-check__blue" type="radio" id="a" name="a">
+                  <span class="card-form-style__blue"></span>                  
+                </label>
+                <label class="card-form-filter">
+                  <input class="card-form-check__grey" type="radio" id="a" name="a">
+                  <span class="card-form-style__grey"></span>                  
+                </label>
+              </fieldset>
+              <fieldset class="card-form-order">
+                <legend class="card-form-size">Size</legend>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>XS</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>S</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>M</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>L</span>
+                </label>
+                <label class="card-form-item">
+                  <input class="card-form-choice" type="radio" id="a" name="a">
+                  <span>XL</span>
+                </label>
+              </fieldset>
+              <p class="card-form-price">$160</p>
+              <button class="default-btn">Add to cart</button>
+            </form>
+          </div>        
+      </div>
+    </section>
+    <!-- <div>
+      <p class="par1">par1</p>
+      <p id="par2">par2</p>
+      <p class="par1">par3</p>
+    </div> -->
+    <section class="recommendations main-section">
+      <div class="container">
+        <header class="title-link">
+          <h2 class="title-link__title">You may also like</h2>          
+          <a href="#" class="title-link__link">View all</a>        
+        </header>
+        <ul class="catalog-list catalog-list--min-gap">
+          <li class="catalog-list__item">
+            <a href="#" class="catalog-list__link">
+              <div class="catalog-list__img"><img src="./img/64 1.jpg" alt="jacket"></div>
+              <h3 clas="heades-product">Overalls</h3>  
+              <p>$140</p>              
+            </a>
+          </li>           
+          <li class="catalog-list__item">
+            <a href="#" class="catalog-list__link">
+              <div class="catalog-list__img"> <img src="./img/overalls.jpg" alt="overalls"></div>
+              <h3 clas="heades-product">Overalls</h3>  
+              <p>$110</p>              
+            </a>
+          </li>
+          <li class="catalog-list__item">
+            <a href="catalog.html" class="catalog-list__link">
+              <div class="catalog-list__img"><img src="./img/21 1.jpg" alt="jacket"></div>
+              <h3 clas="heades-product">Jackets</h3>  
+              <p>$70</p>              
+            </a>
+          </li>
+          <li class="catalog-list__item">
+            <a href="#" class="catalog-list__link">
+              <div class="catalog-list__img"><img src="./img/41 1.jpg" alt="overalls"></div>
+              <h3 clas="heades-product">Jackets</h3>
+              <p>$60</p>                
+            </a>
+          </li>
+        </ul>          
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <a href="/" class="main-footer-logowite">
+      <img src="./img/logowite.png" alt="logotip">
+    </a>
+    <ul class="footer-navigation">
+      <li class="footer-navigation-item">
+        <a class="footer-navigation-link" href="#">Shop</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a class="footer-navigation-link" href="#">Delivery</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a class="footer-navigation-link" href="#">Service</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a class="footer-navigation-link" href="#">Sitemap</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a class="footer-navigation-link" href="#">Contacts</a>
+      </li>   
+    </ul>
+    <ul class="social-networks">
+      <li class="footer-navigation-item">
+        <a href="/" class="footer-face">
+          <img src="./img/face.png" alt="facebook">
+        </a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="/" class="footer-insta">
+          <img src="./img/insta.png" alt="instagram">
+        </a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="/" class="footer-pinterest">
+          <img src="./img/pinterest.png" alt="pinterest">
+        </a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="/" class="footer-twitter">
+          <img src="./img/twitter.png" alt="twitter">
+        </a>
+      </li>
+    </ul>      
+  </footer>
+  <script src="/js/dtl.js"></script>
+</body>
+</html>
