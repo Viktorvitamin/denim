@@ -16,4 +16,6 @@ prevs.forEach(function(element) {
 
 
 const nameStr = "fvdjksfkldsfjkds";
-console.log(nameStr);
+function showNaMe() {
+  return nameStr;
+}
