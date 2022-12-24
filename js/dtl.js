@@ -17,3 +17,4 @@ prevs.forEach(function(element) {
 
 const nameStr = "fvdjksfkldsfjkds";
 console.log(nameStr);
+const baka = 'eferf';
