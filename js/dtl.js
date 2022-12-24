@@ -19,3 +19,4 @@ const nameStr = "fvdjksfkldsfjkds";
 function showNaMe() {
   return nameStr;
 }
+const baka = 'eferf';
